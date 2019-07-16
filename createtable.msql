@@ -1,0 +1,14 @@
+CREATE DATABASE my_abc_db;
+CREATE TABLE myfrinds
+ (
+  first_name  VARCHAR(15) NOT NULL,
+  middle_name VARCHAR(15) NOT NULL,
+  last_name   VARCHAR(15) NOT NULL,
+  suffix      VARCHAR(5) NULL,
+  gender      VARCHAR(1) NULL,
+  city        VARCHAR(20) NOT NULL,
+  state       VARCHAR(2) NOT NULL,
+  country     VARCHAR(20) NOT NULL,
+  phone       VARCHAR(16) NOT NULL UNIQuE,
+  age     integer
+ );
